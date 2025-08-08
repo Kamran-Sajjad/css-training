@@ -16,7 +16,12 @@
                 <label for="name">Name</label>
                 <div class="icon">
                   <img src="assets/name.svg" alt="Name" />
-                  <input type="text" name="name" placeholder="John Doe" />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Doe"
+                  />
                 </div>
               </div>
               <div class="input-fields">
@@ -24,7 +29,7 @@
                 <div class="icon">
                   <img src="assets/envelope.svg" alt="Name" />
                   <input
-                    type="text"
+                    type="email"
                     name="email"
                     placeholder="johndoe@gmail.com"
                   />
@@ -62,3 +67,60 @@
     </form>
   </body>
 </html>
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <form>
+    <div class="container">
+      <div class="main">
+        <div class="info">
+          <div class="personal-details">
+            <div class="input-fields">
+              <label for="name">Name</label>
+              <div class="icon">
+                <img src="assets/name.svg" alt="Name icon" />
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+            </div>
+            <div class="input-fields">
+              <label for="email">Email</label>
+              <div class="icon">
+                <img src="assets/envelope.svg" alt="Email icon" />
+                <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="input-fields">
+              <label for="message">Your Message</label>
+              <div class="field">
+                <textarea id="message" name="message" placeholder="Add text..." required></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="action">
+          <div>
+            <input type="checkbox" id="agree" value="agree" name="agree" required />
+            <label for="agree">I agree with the terms of use and privacy policy</label>
+          </div>
+          <div class="button">
+            <button type="submit">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+</html> -->

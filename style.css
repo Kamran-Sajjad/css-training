@@ -7,15 +7,19 @@
   background-image: linear-gradient(190deg, #f5fafb 47.27%, #e9f6f9 85.77%);
   border-radius: 3.5rem;
   height: 23rem;
+  max-width: 90%;
   width: 80rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 3.13rem 2.6rem;
+  margin: auto;
 }
 .main {
   padding: 2rem;
-  width: 56rem;
+  /* width: 56rem; */
+  max-width: 56rem;
+  width: 100%;
   border-radius: 16px;
   border: 1px solid #eaecf0;
   height: 75%;
